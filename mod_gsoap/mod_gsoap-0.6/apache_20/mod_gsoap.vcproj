@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.00"
+	Name="mod_gsoap"
+	ProjectGUID="{B9904056-B2A0-4433-B3D5-3B10762785E5}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="Debug"
+			ConfigurationType="2"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				 
+				PreprocessorDefinitions="_WIN32_WINNT=0x0501;WINVER=0x0501;_WIN32_IE=0x0603;WIN32;_DEBUG;_WINDOWS;SOAP_FMAC1=__declspec(dllexport);SOAP_CMAC=__(dllexport);WITH_NONAMESPACES"
+				 
+				 
+				 
+				 
+				 
+				Detect64BitPortabilityProblems="false"
+				 />
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="libapr.lib libhttpd.lib"
+				OutputFile="c:/apache2/modules/$(ProjectName).so"
+				 
+				AdditionalLibraryDirectories="C:\apache\lib"
+				ModuleDefinitionFile=""
+				
+				ProgramDatabaseFile="$(OutDir)/mod_gsoap.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="Release"
+			ConfigurationType="1"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				 
+				InlineFunctionExpansion="1"
+				OmitFramePointers="TRUE"
+				PreprocessorDefinitions="_WIN32_WINNT=0x0501;WINVER=0x0501;_WIN32_IE=0x0603;WIN32;NDEBUG;_WINDOWS"
+				StringPooling="TRUE"
+				 
+				 
+				 
+				 
+				Detect64BitPortabilityProblems="false"
+				 />
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="$(OutDir)/mod_gsoap.exe"
+				 
+				ModuleDefinitionFile="mod_gsop.def"
+				
+				SubSystem="2"
+				OptimizeReferences="2"
+				EnableCOMDATFolding="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<File
+			RelativePath="apache_gsoap.h">
+		</File>
+		<File
+			RelativePath="mod_gsoap.c">
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

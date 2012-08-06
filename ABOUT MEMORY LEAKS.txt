@@ -1,0 +1,6 @@
+2 sources of leaks were fixed as of 8/29/08
+
+1) In some cases objects that are pointers to other objects and hich are themsleves contained in a vector would leak (the pointed object was lost). 
+2) Objects that contained pointers where not deleted when the destructor was called
+
+The file src\symbol2.c was fixed accordingly and therefore extreme care should be taken in upgrading or recompiling gSOAP (in other words make sure that this change is not lost)

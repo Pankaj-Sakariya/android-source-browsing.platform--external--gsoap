@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calcclient", "calcclient.vcproj", "{F647213F-3197-4C80-8A41-3FB59AEE5D43}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calcserver", "calcserver.vcproj", "{12450B59-BDCC-41F0-ABDD-4C7517BE690D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F647213F-3197-4C80-8A41-3FB59AEE5D43}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F647213F-3197-4C80-8A41-3FB59AEE5D43}.Debug|Win32.Build.0 = Debug|Win32
+		{F647213F-3197-4C80-8A41-3FB59AEE5D43}.Release|Win32.ActiveCfg = Release|Win32
+		{F647213F-3197-4C80-8A41-3FB59AEE5D43}.Release|Win32.Build.0 = Release|Win32
+		{12450B59-BDCC-41F0-ABDD-4C7517BE690D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{12450B59-BDCC-41F0-ABDD-4C7517BE690D}.Debug|Win32.Build.0 = Debug|Win32
+		{12450B59-BDCC-41F0-ABDD-4C7517BE690D}.Release|Win32.ActiveCfg = Release|Win32
+		{12450B59-BDCC-41F0-ABDD-4C7517BE690D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
